@@ -2,7 +2,6 @@
 
 namespace Elegance\DImage;
 
-use Elegance\Response;
 use GdImage;
 
 trait TraitDImageGet

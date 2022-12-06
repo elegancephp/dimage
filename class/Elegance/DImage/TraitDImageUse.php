@@ -5,7 +5,6 @@ namespace Elegance\DImage;
 use Elegance\Dir;
 use Elegance\File;
 use Elegance\DImage;
-use Elegance\Response;
 use Error;
 
 trait TraitDImageUse
