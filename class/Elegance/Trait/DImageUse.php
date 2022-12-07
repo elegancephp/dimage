@@ -1,13 +1,13 @@
 <?php
 
-namespace Elegance\DImage;
+namespace Elegance\Trait;
 
 use Elegance\Dir;
 use Elegance\File;
 use Elegance\DImage;
 use Error;
 
-trait TraitDImageUse
+trait DImageUse
 {
     /** Salva a imagem em um arquivo */
     function save(?string $path = null): static

@@ -1,10 +1,11 @@
 <?php
 
-namespace Elegance\DImage;
+namespace Elegance\Trait;
 
 use Elegance\DImage;
+use Elegance\Exception\DImageException;
 
-trait TraitDImageEdit
+trait DImageEdit
 {
     /** Converte o arquivo de saida para outro formato */
     function convert(string $ex): static

@@ -1,8 +1,8 @@
 <?php
 
-namespace Elegance\DImage;
+namespace Elegance\Trait;
 
-trait TraitDImageCalc
+trait DImageCalc
 {
     /** Garante que uma variavel tenha um array de redimencionamento */
     protected function ensureResizeArray(int|array &$size): void

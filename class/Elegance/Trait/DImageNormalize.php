@@ -1,8 +1,8 @@
 <?php
 
-namespace Elegance\DImage;
+namespace Elegance\Trait;
 
-trait TraitDImageNormalize
+trait DImageNormalize
 {
     /** Normaliza uma variavel de cores */
     protected static function normalizeColor(string|array $color): array

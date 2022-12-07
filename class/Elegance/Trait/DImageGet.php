@@ -1,10 +1,10 @@
 <?php
 
-namespace Elegance\DImage;
+namespace Elegance\Trait;
 
 use GdImage;
 
-trait TraitDImageGet
+trait DImageGet
 {
     /** Retorna o nome da imagem */
     function getName(bool $ex = false): string

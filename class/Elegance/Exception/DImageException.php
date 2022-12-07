@@ -1,6 +1,6 @@
 <?php
 
-namespace Elegance\DImage;
+namespace Elegance\Exception;
 
 use Exception;
 

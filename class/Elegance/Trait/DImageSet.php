@@ -1,8 +1,8 @@
 <?php
 
-namespace Elegance\DImage;
+namespace Elegance\Trait;
 
-trait TraitDImageSet
+trait DImageSet
 {
     /** Define a qualidade da imagem para arquivos exportados */
     function quality(int $quality): static

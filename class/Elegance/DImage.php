@@ -2,23 +2,23 @@
 
 namespace Elegance;
 
-use Elegance\DImage\DImageException;
-use Elegance\DImage\TraitDImageCalc;
-use Elegance\DImage\TraitDImageEdit;
-use Elegance\DImage\TraitDImageGet;
-use Elegance\DImage\TraitDImageNormalize;
-use Elegance\DImage\TraitDImageSet;
-use Elegance\DImage\TraitDImageUse;
+use Elegance\Exception\DImageException;
+use Elegance\Trait\DImageCalc;
+use Elegance\Trait\DImageEdit;
+use Elegance\Trait\DImageGet;
+use Elegance\Trait\DImageNormalize;
+use Elegance\Trait\DImageSet;
+use Elegance\Trait\DImageUse;
 use GdImage;
 
 class DImage
 {
-    use TraitDImageCalc;
-    use TraitDImageEdit;
-    use TraitDImageGet;
-    use TraitDImageNormalize;
-    use TraitDImageSet;
-    use TraitDImageUse;
+    use DImageCalc;
+    use DImageEdit;
+    use DImageGet;
+    use DImageNormalize;
+    use DImageSet;
+    use DImageUse;
 
     protected GdImage $gd;
     protected array $color = ['255', '255', '255'];
