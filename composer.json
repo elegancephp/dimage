@@ -11,14 +11,11 @@
     "autoload": {
         "psr-4": {
             "": "class/"
-        },
-        "files": [
-            "helper/function/color.php"
-        ]
+        }
     },
     "require": {
         "ext-gd": "*",
         "ext-exif": "*",
-        "elegance/core": "^1.0"
+        "elegance/core": "^2.0"
     }
 }
